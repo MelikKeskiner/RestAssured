@@ -1,0 +1,11 @@
+What is rest assured ?
+- It is a java library to test Rest APIs
+
+How do you use it?
+- We create a request and send it to the API and get the response.
+- Than we write our tests for the response
+
+How do you create a request ?
+given() -> Preparation(Token, Request body, parameters, cookies)
+     .when() -> to send the request(Request method)
+        .then() -> response(Response body, test, extract data, set local or global variables)
